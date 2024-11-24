@@ -39,9 +39,3 @@ blocks:
           commands:
             - pip install flake8
             - flake8 martor_demo/ --max-line-length=127
-  - name: Run
-    task:
-      jobs:
-        - name: Run Django Server
-          commands:
-            - python manage.py runserver
