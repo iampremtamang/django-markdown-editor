@@ -3,3 +3,4 @@ Markdown==3.3.4
 requests
 bleach
 martor
+importlib-metadata==4.13.0
