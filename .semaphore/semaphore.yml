@@ -44,5 +44,4 @@ blocks:
       jobs:
         - name: Run Django Server
           commands:
-            - cd martor_demo
             - python manage.py runserver
